@@ -1,0 +1,14 @@
+html {background-color:#323232;}
+div.wrapper {width:80%; margin: 50px auto 100px; min-width:500px;}
+div.wrapper img {margin:auto; height:100%; box-shadow: 0 0 18px 0px #2F2F2F; border: 5px solid white;}
+div.wrapper div.holder { height:115px; float:left; position:relative; margin-bottom:30px; margin-right:20px;}
+div.wrapper img:hover {border-color:#FFBFBF;}
+div.wrapper img.selected {border-color:#ff0000;}
+h2, p{color:white; font-family: 'Open Sans', sans-serif; text-align:center;}
+h2 {background-color:white; color:#323232; padding: 20px 5px;}
+hr {height:1px; border:none; background:white; margin-bottom:50px; margin-top:40px;}
+div.bottom {position:fixed; bottom:-100px; height:100px; background:white; width:100%;}
+div.bottom div.button-wrapper {width:400px; margin:auto; margin: 30px auto 0 auto; position:relative;}
+div.bottom a.submitter, div.bottom a.cancel{padding:10px 5px; background:#21AE58; color:white;  font-family:'Open Sans', sans-serif; text-align:center; text-decoration:none; display:block; width:200px; border-radius:3px; position:absolute;}
+div.bottom a.submitter {left:200px; font-weight:bold;}
+div.bottom a.cancel {width:150px; color:#21AE58; border:3px solid #21AE58; padding:7px 5px;background:transparent;}
